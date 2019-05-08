@@ -28,12 +28,6 @@ module.exports = {
     return res.json(tool);
   },
 
-  async update(req, res) {
-    const tool = await Tool.findByIdAndUpdate(req.params.id, req.body, { new: true });
-
-    return res.json(tool);
-  },
-
   async destroy(req, res) {
     await Tool.findByIdAndDelete(req.params.id);
 

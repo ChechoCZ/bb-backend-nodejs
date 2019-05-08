@@ -1,8 +1,8 @@
-# BossaBox Backend Challenge
+# BossaBox back-end Challenge
 
-O presente app, visa satisfacer os requerimentos do challenge para o back-end determinados pela [BossaBox](https://bossabox.com).
+This app intends to met the specifications of the back-end challenge from [BossaBox](https://bossabox.com).
 
-Para o mesmo foram utilizadas as seguintes tecnologias e packages:
+The tech stack and external packages used in this project are listed below:
 ```
  - Node.js
  - Express.js
@@ -10,17 +10,23 @@ Para o mesmo foram utilizadas as seguintes tecnologias e packages:
  - mongoose
  - mongoose-paginate
  - dotenv
+ - swagger-ui-express
 ```
 
-### Rodar o App
-Para rodar o app, basta clonar o repositório, entrar na pasta do repositório desde o terminal e digitar:
+### Run the App
+In order to run this app clone this repo, open the terminal, cd in the project and run the following command:
 ```
 yarn install
 ```
-Esse comado instalará todas as dependências. Para rodar o app executar:
+This command will install all the dependencies. To run the app just run:
 ```
 yarn start
 ```
 
-O App rodara no endereço: http://localhost/3000
+The app will run in: http://localhost/3000
+
+### Documentation
+In order to check the API Documentation go to the browser and type: http://localhost:3000/documentation
+
+
 
