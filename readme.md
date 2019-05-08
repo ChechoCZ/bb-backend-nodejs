@@ -5,6 +5,7 @@ O presente app, visa satisfacer os requerimentos do challenge para o back-end de
 Para o mesmo foram utilizadas as seguintes tecnologias e packages:
 ```
  - Node.js
+ - Express.js
  - MongoDB
  - mongoose
  - mongoose-paginate
