@@ -2,12 +2,12 @@
 
 O presente app, visa satisfacer os requerimentos do challenge para o back-end determinados pela [BossaBox](https://bossabox.com).
 
-Para o mesmo foram utilizadas as seguintes tecnologias:
+Para o mesmo foram utilizadas as seguintes tecnologias e packages:
 ```
  - Node.js
  - MongoDB
- - Mongoose
- - mongoose-Paginate
+ - mongoose
+ - mongoose-paginate
  - dotenv
 ```
 
